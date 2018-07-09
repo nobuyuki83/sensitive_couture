@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D007E2A17542C3B91B770EE42883457553F5950C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D007E2A17542C3B91B770EE42883457553F5950C" : 0,
+    "E2D83921267CBBAE415EBEC928E40470CE0100A0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3E2D266F-401B-4199-BEF7-ED0380380700",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D007E2A17542C3B91B770EE42883457553F5950C" : "standard_utility_codes",
+    "E2D83921267CBBAE415EBEC928E40470CE0100A0" : "kite"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "viewer3d",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "viewer3d\/viewer3d.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/umet55\/standardutilitycodes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D007E2A17542C3B91B770EE42883457553F5950C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/umet55\/kite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2D83921267CBBAE415EBEC928E40470CE0100A0"
+    }
+  ]
+}

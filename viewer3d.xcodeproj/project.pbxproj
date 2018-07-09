@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93F1D641DB45FE1000C04E0 /* analysis2d_cloth_static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D4A1DB45FE1000C04E0 /* analysis2d_cloth_static.cpp */; };
+		A93F1D651DB45FE1000C04E0 /* cloth_handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D4C1DB45FE1000C04E0 /* cloth_handler.cpp */; };
+		A93F1D661DB45FE1000C04E0 /* cloth_utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D4E1DB45FE1000C04E0 /* cloth_utility.cpp */; };
+		A93F1D671DB45FE1000C04E0 /* contact_target_adf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D501DB45FE1000C04E0 /* contact_target_adf.cpp */; };
+		A93F1D681DB45FE1000C04E0 /* contact_target_mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D511DB45FE1000C04E0 /* contact_target_mesh.cpp */; };
+		A93F1D691DB45FE1000C04E0 /* designer2d_cloth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D531DB45FE1000C04E0 /* designer2d_cloth.cpp */; };
+		A93F1D6A1DB45FE1000C04E0 /* emat_cst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D551DB45FE1000C04E0 /* emat_cst.cpp */; };
+		A93F1D6B1DB45FE1000C04E0 /* emat_glue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D571DB45FE1000C04E0 /* emat_glue.cpp */; };
+		A93F1D6C1DB45FE1000C04E0 /* emat_quad_bend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D591DB45FE1000C04E0 /* emat_quad_bend.cpp */; };
+		A93F1D6D1DB45FE1000C04E0 /* eqn_contact3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D5B1DB45FE1000C04E0 /* eqn_contact3d.cpp */; };
+		A93F1D6E1DB45FE1000C04E0 /* eqn_glue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D5D1DB45FE1000C04E0 /* eqn_glue.cpp */; };
+		A93F1D6F1DB45FE1000C04E0 /* eqn_quad_bend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D5F1DB45FE1000C04E0 /* eqn_quad_bend.cpp */; };
+		A93F1D701DB45FE1000C04E0 /* stitch_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D621DB45FE1000C04E0 /* stitch_array.cpp */; };
+		A93F1D781DB46017000C04E0 /* brep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D711DB46017000C04E0 /* brep.cpp */; };
+		A93F1D791DB46017000C04E0 /* brep2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D721DB46017000C04E0 /* brep2d.cpp */; };
+		A93F1D7A1DB46017000C04E0 /* cad_edge2d_polyline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D731DB46017000C04E0 /* cad_edge2d_polyline.cpp */; };
+		A93F1D7B1DB46017000C04E0 /* cad_elem2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D741DB46017000C04E0 /* cad_elem2d.cpp */; };
+		A93F1D7C1DB46017000C04E0 /* cad_obj2d_move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D751DB46017000C04E0 /* cad_obj2d_move.cpp */; };
+		A93F1D7D1DB46017000C04E0 /* cad_obj2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D761DB46017000C04E0 /* cad_obj2d.cpp */; };
+		A93F1D7E1DB46017000C04E0 /* drawer_cad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D771DB46017000C04E0 /* drawer_cad.cpp */; };
+		A93F1D831DB46044000C04E0 /* drawer_msh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D7F1DB46044000C04E0 /* drawer_msh.cpp */; };
+		A93F1D841DB46044000C04E0 /* mesher2d_edit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D801DB46044000C04E0 /* mesher2d_edit.cpp */; };
+		A93F1D851DB46044000C04E0 /* mesher2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D811DB46044000C04E0 /* mesher2d.cpp */; };
+		A93F1D861DB46044000C04E0 /* meshkernel2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D821DB46044000C04E0 /* meshkernel2d.cpp */; };
+		A93F1D8D1DB46074000C04E0 /* drawer_gl_utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D871DB46074000C04E0 /* drawer_gl_utility.cpp */; };
+		A93F1D8E1DB46074000C04E0 /* drawer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D881DB46074000C04E0 /* drawer.cpp */; };
+		A93F1D8F1DB46074000C04E0 /* quaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D891DB46074000C04E0 /* quaternion.cpp */; };
+		A93F1D901DB46074000C04E0 /* spatial_hash_grid2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D8A1DB46074000C04E0 /* spatial_hash_grid2d.cpp */; };
+		A93F1D911DB46074000C04E0 /* tri_ary_topology.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D8B1DB46074000C04E0 /* tri_ary_topology.cpp */; };
+		A93F1D921DB46074000C04E0 /* vector3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D8C1DB46074000C04E0 /* vector3d.cpp */; };
+		A93F1D971DB460A4000C04E0 /* field_value_setter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D931DB460A4000C04E0 /* field_value_setter.cpp */; };
+		A93F1D981DB460A4000C04E0 /* field_world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D941DB460A4000C04E0 /* field_world.cpp */; };
+		A93F1D991DB460A4000C04E0 /* field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D951DB460A4000C04E0 /* field.cpp */; };
+		A93F1D9A1DB460A4000C04E0 /* node_ary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D961DB460A4000C04E0 /* node_ary.cpp */; };
+		A93F1D9F1DB46161000C04E0 /* spatial_hash_grid3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D9B1DB46161000C04E0 /* spatial_hash_grid3d.cpp */; };
+		A93F1DA01DB46161000C04E0 /* linearsystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D9C1DB46161000C04E0 /* linearsystem.cpp */; };
+		A93F1DA11DB46161000C04E0 /* preconditioner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D9D1DB46161000C04E0 /* preconditioner.cpp */; };
+		A93F1DA21DB46161000C04E0 /* solver_ls_iter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1D9E1DB46161000C04E0 /* solver_ls_iter.cpp */; };
+		A93F1DA41DB4619B000C04E0 /* surface_mesh_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DA31DB4619B000C04E0 /* surface_mesh_reader.cpp */; };
+		A93F1DA91DB461BA000C04E0 /* drawer_field_edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DA51DB461BA000C04E0 /* drawer_field_edge.cpp */; };
+		A93F1DAA1DB461BA000C04E0 /* drawer_field_face.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DA61DB461BA000C04E0 /* drawer_field_face.cpp */; };
+		A93F1DAB1DB461BA000C04E0 /* drawer_field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DA71DB461BA000C04E0 /* drawer_field.cpp */; };
+		A93F1DAC1DB461BA000C04E0 /* elem_ary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DA81DB461BA000C04E0 /* elem_ary.cpp */; };
+		A93F1DB71DB461D9000C04E0 /* mat_blkcrs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DAD1DB461D9000C04E0 /* mat_blkcrs.cpp */; };
+		A93F1DB81DB461D9000C04E0 /* matdia_blkcrs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DAE1DB461D9000C04E0 /* matdia_blkcrs.cpp */; };
+		A93F1DB91DB461D9000C04E0 /* matdiafrac_blkcrs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DAF1DB461D9000C04E0 /* matdiafrac_blkcrs.cpp */; };
+		A93F1DBA1DB461D9000C04E0 /* matdiainv_blkdia.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DB01DB461D9000C04E0 /* matdiainv_blkdia.cpp */; };
+		A93F1DBB1DB461D9000C04E0 /* matfrac_blkcrs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DB11DB461D9000C04E0 /* matfrac_blkcrs.cpp */; };
+		A93F1DBC1DB461D9000C04E0 /* matprolong_blkcrs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DB21DB461D9000C04E0 /* matprolong_blkcrs.cpp */; };
+		A93F1DBD1DB461D9000C04E0 /* ordering_blk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DB31DB461D9000C04E0 /* ordering_blk.cpp */; };
+		A93F1DBE1DB461D9000C04E0 /* solver_mat_iter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DB41DB461D9000C04E0 /* solver_mat_iter.cpp */; };
+		A93F1DBF1DB461D9000C04E0 /* solver_mg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DB51DB461D9000C04E0 /* solver_mg.cpp */; };
+		A93F1DC01DB461D9000C04E0 /* vector_blk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DB61DB461D9000C04E0 /* vector_blk.cpp */; };
+		A93F1DC21DB46202000C04E0 /* uglyfont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DC11DB46202000C04E0 /* uglyfont.cpp */; };
+		A93F1DC41DB46219000C04E0 /* eval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DC31DB46219000C04E0 /* eval.cpp */; };
+		A93F1DC71DB4623A000C04E0 /* linearsystem_field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DC51DB4623A000C04E0 /* linearsystem_field.cpp */; };
+		A93F1DC81DB4623A000C04E0 /* linearsystem_fieldsave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A93F1DC61DB4623A000C04E0 /* linearsystem_fieldsave.cpp */; };
+		A948B18B19C6C2E600DA0EA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A948B18A19C6C2E600DA0EA5 /* main.cpp */; };
+		A948B18D19C6C3AE00DA0EA5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A948B18C19C6C3AE00DA0EA5 /* OpenGL.framework */; };
+		A948B18F19C6C3B300DA0EA5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A948B18E19C6C3B300DA0EA5 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A948B17C19C6C2BF00DA0EA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A93F1D491DB45F61000C04E0 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = camera.h; path = DelFEM/include/delfem/camera.h; sourceTree = "<group>"; };
+		A93F1D4A1DB45FE1000C04E0 /* analysis2d_cloth_static.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = analysis2d_cloth_static.cpp; sourceTree = "<group>"; };
+		A93F1D4B1DB45FE1000C04E0 /* analysis2d_cloth_static.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = analysis2d_cloth_static.h; sourceTree = "<group>"; };
+		A93F1D4C1DB45FE1000C04E0 /* cloth_handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cloth_handler.cpp; sourceTree = "<group>"; };
+		A93F1D4D1DB45FE1000C04E0 /* cloth_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cloth_handler.h; sourceTree = "<group>"; };
+		A93F1D4E1DB45FE1000C04E0 /* cloth_utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cloth_utility.cpp; sourceTree = "<group>"; };
+		A93F1D4F1DB45FE1000C04E0 /* cloth_utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cloth_utility.h; sourceTree = "<group>"; };
+		A93F1D501DB45FE1000C04E0 /* contact_target_adf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = contact_target_adf.cpp; sourceTree = "<group>"; };
+		A93F1D511DB45FE1000C04E0 /* contact_target_mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = contact_target_mesh.cpp; sourceTree = "<group>"; };
+		A93F1D521DB45FE1000C04E0 /* contact_target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contact_target.h; sourceTree = "<group>"; };
+		A93F1D531DB45FE1000C04E0 /* designer2d_cloth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = designer2d_cloth.cpp; sourceTree = "<group>"; };
+		A93F1D541DB45FE1000C04E0 /* designer2d_cloth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = designer2d_cloth.h; sourceTree = "<group>"; };
+		A93F1D551DB45FE1000C04E0 /* emat_cst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emat_cst.cpp; sourceTree = "<group>"; };
+		A93F1D561DB45FE1000C04E0 /* emat_cst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emat_cst.h; sourceTree = "<group>"; };
+		A93F1D571DB45FE1000C04E0 /* emat_glue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emat_glue.cpp; sourceTree = "<group>"; };
+		A93F1D581DB45FE1000C04E0 /* emat_glue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emat_glue.h; sourceTree = "<group>"; };
+		A93F1D591DB45FE1000C04E0 /* emat_quad_bend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emat_quad_bend.cpp; sourceTree = "<group>"; };
+		A93F1D5A1DB45FE1000C04E0 /* emat_quad_bend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emat_quad_bend.h; sourceTree = "<group>"; };
+		A93F1D5B1DB45FE1000C04E0 /* eqn_contact3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eqn_contact3d.cpp; sourceTree = "<group>"; };
+		A93F1D5C1DB45FE1000C04E0 /* eqn_contact3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eqn_contact3d.h; sourceTree = "<group>"; };
+		A93F1D5D1DB45FE1000C04E0 /* eqn_glue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eqn_glue.cpp; sourceTree = "<group>"; };
+		A93F1D5E1DB45FE1000C04E0 /* eqn_glue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eqn_glue.h; sourceTree = "<group>"; };
+		A93F1D5F1DB45FE1000C04E0 /* eqn_quad_bend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eqn_quad_bend.cpp; sourceTree = "<group>"; };
+		A93F1D601DB45FE1000C04E0 /* eqn_quad_bend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eqn_quad_bend.h; sourceTree = "<group>"; };
+		A93F1D611DB45FE1000C04E0 /* slider_deform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slider_deform.h; sourceTree = "<group>"; };
+		A93F1D621DB45FE1000C04E0 /* stitch_array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stitch_array.cpp; sourceTree = "<group>"; };
+		A93F1D631DB45FE1000C04E0 /* stitch_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stitch_array.h; sourceTree = "<group>"; };
+		A93F1D711DB46017000C04E0 /* brep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = brep.cpp; path = DelFEM/src/cad/brep.cpp; sourceTree = "<group>"; };
+		A93F1D721DB46017000C04E0 /* brep2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = brep2d.cpp; path = DelFEM/src/cad/brep2d.cpp; sourceTree = "<group>"; };
+		A93F1D731DB46017000C04E0 /* cad_edge2d_polyline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cad_edge2d_polyline.cpp; path = DelFEM/src/cad/cad_edge2d_polyline.cpp; sourceTree = "<group>"; };
+		A93F1D741DB46017000C04E0 /* cad_elem2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cad_elem2d.cpp; path = DelFEM/src/cad/cad_elem2d.cpp; sourceTree = "<group>"; };
+		A93F1D751DB46017000C04E0 /* cad_obj2d_move.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cad_obj2d_move.cpp; path = DelFEM/src/cad/cad_obj2d_move.cpp; sourceTree = "<group>"; };
+		A93F1D761DB46017000C04E0 /* cad_obj2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cad_obj2d.cpp; path = DelFEM/src/cad/cad_obj2d.cpp; sourceTree = "<group>"; };
+		A93F1D771DB46017000C04E0 /* drawer_cad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_cad.cpp; path = DelFEM/src/cad/drawer_cad.cpp; sourceTree = "<group>"; };
+		A93F1D7F1DB46044000C04E0 /* drawer_msh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_msh.cpp; path = DelFEM/src/msh/drawer_msh.cpp; sourceTree = "<group>"; };
+		A93F1D801DB46044000C04E0 /* mesher2d_edit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mesher2d_edit.cpp; path = DelFEM/src/msh/mesher2d_edit.cpp; sourceTree = "<group>"; };
+		A93F1D811DB46044000C04E0 /* mesher2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mesher2d.cpp; path = DelFEM/src/msh/mesher2d.cpp; sourceTree = "<group>"; };
+		A93F1D821DB46044000C04E0 /* meshkernel2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = meshkernel2d.cpp; path = DelFEM/src/msh/meshkernel2d.cpp; sourceTree = "<group>"; };
+		A93F1D871DB46074000C04E0 /* drawer_gl_utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_gl_utility.cpp; path = DelFEM/src/com/drawer_gl_utility.cpp; sourceTree = "<group>"; };
+		A93F1D881DB46074000C04E0 /* drawer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawer.cpp; path = DelFEM/src/com/drawer.cpp; sourceTree = "<group>"; };
+		A93F1D891DB46074000C04E0 /* quaternion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = quaternion.cpp; path = DelFEM/src/com/quaternion.cpp; sourceTree = "<group>"; };
+		A93F1D8A1DB46074000C04E0 /* spatial_hash_grid2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = spatial_hash_grid2d.cpp; path = DelFEM/src/com/spatial_hash_grid2d.cpp; sourceTree = "<group>"; };
+		A93F1D8B1DB46074000C04E0 /* tri_ary_topology.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tri_ary_topology.cpp; path = DelFEM/src/com/tri_ary_topology.cpp; sourceTree = "<group>"; };
+		A93F1D8C1DB46074000C04E0 /* vector3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vector3d.cpp; path = DelFEM/src/com/vector3d.cpp; sourceTree = "<group>"; };
+		A93F1D931DB460A4000C04E0 /* field_value_setter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = field_value_setter.cpp; path = DelFEM/src/femfield/field_value_setter.cpp; sourceTree = "<group>"; };
+		A93F1D941DB460A4000C04E0 /* field_world.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = field_world.cpp; path = DelFEM/src/femfield/field_world.cpp; sourceTree = "<group>"; };
+		A93F1D951DB460A4000C04E0 /* field.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = field.cpp; path = DelFEM/src/femfield/field.cpp; sourceTree = "<group>"; };
+		A93F1D961DB460A4000C04E0 /* node_ary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = node_ary.cpp; path = DelFEM/src/femfield/node_ary.cpp; sourceTree = "<group>"; };
+		A93F1D9B1DB46161000C04E0 /* spatial_hash_grid3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = spatial_hash_grid3d.cpp; path = DelFEM/src/com/spatial_hash_grid3d.cpp; sourceTree = "<group>"; };
+		A93F1D9C1DB46161000C04E0 /* linearsystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = linearsystem.cpp; path = DelFEM/src/ls/linearsystem.cpp; sourceTree = "<group>"; };
+		A93F1D9D1DB46161000C04E0 /* preconditioner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = preconditioner.cpp; path = DelFEM/src/ls/preconditioner.cpp; sourceTree = "<group>"; };
+		A93F1D9E1DB46161000C04E0 /* solver_ls_iter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = solver_ls_iter.cpp; path = DelFEM/src/ls/solver_ls_iter.cpp; sourceTree = "<group>"; };
+		A93F1DA31DB4619B000C04E0 /* surface_mesh_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = surface_mesh_reader.cpp; path = DelFEM/src/msh/surface_mesh_reader.cpp; sourceTree = "<group>"; };
+		A93F1DA51DB461BA000C04E0 /* drawer_field_edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_field_edge.cpp; path = DelFEM/src/femfield/drawer_field_edge.cpp; sourceTree = "<group>"; };
+		A93F1DA61DB461BA000C04E0 /* drawer_field_face.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_field_face.cpp; path = DelFEM/src/femfield/drawer_field_face.cpp; sourceTree = "<group>"; };
+		A93F1DA71DB461BA000C04E0 /* drawer_field.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = drawer_field.cpp; path = DelFEM/src/femfield/drawer_field.cpp; sourceTree = "<group>"; };
+		A93F1DA81DB461BA000C04E0 /* elem_ary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = elem_ary.cpp; path = DelFEM/src/femfield/elem_ary.cpp; sourceTree = "<group>"; };
+		A93F1DAD1DB461D9000C04E0 /* mat_blkcrs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mat_blkcrs.cpp; path = DelFEM/src/matvec/mat_blkcrs.cpp; sourceTree = "<group>"; };
+		A93F1DAE1DB461D9000C04E0 /* matdia_blkcrs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = matdia_blkcrs.cpp; path = DelFEM/src/matvec/matdia_blkcrs.cpp; sourceTree = "<group>"; };
+		A93F1DAF1DB461D9000C04E0 /* matdiafrac_blkcrs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = matdiafrac_blkcrs.cpp; path = DelFEM/src/matvec/matdiafrac_blkcrs.cpp; sourceTree = "<group>"; };
+		A93F1DB01DB461D9000C04E0 /* matdiainv_blkdia.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = matdiainv_blkdia.cpp; path = DelFEM/src/matvec/matdiainv_blkdia.cpp; sourceTree = "<group>"; };
+		A93F1DB11DB461D9000C04E0 /* matfrac_blkcrs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = matfrac_blkcrs.cpp; path = DelFEM/src/matvec/matfrac_blkcrs.cpp; sourceTree = "<group>"; };
+		A93F1DB21DB461D9000C04E0 /* matprolong_blkcrs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = matprolong_blkcrs.cpp; path = DelFEM/src/matvec/matprolong_blkcrs.cpp; sourceTree = "<group>"; };
+		A93F1DB31DB461D9000C04E0 /* ordering_blk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ordering_blk.cpp; path = DelFEM/src/matvec/ordering_blk.cpp; sourceTree = "<group>"; };
+		A93F1DB41DB461D9000C04E0 /* solver_mat_iter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = solver_mat_iter.cpp; path = DelFEM/src/matvec/solver_mat_iter.cpp; sourceTree = "<group>"; };
+		A93F1DB51DB461D9000C04E0 /* solver_mg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = solver_mg.cpp; path = DelFEM/src/matvec/solver_mg.cpp; sourceTree = "<group>"; };
+		A93F1DB61DB461D9000C04E0 /* vector_blk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vector_blk.cpp; path = DelFEM/src/matvec/vector_blk.cpp; sourceTree = "<group>"; };
+		A93F1DC11DB46202000C04E0 /* uglyfont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uglyfont.cpp; path = DelFEM/src/com/uglyfont.cpp; sourceTree = "<group>"; };
+		A93F1DC31DB46219000C04E0 /* eval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = eval.cpp; path = DelFEM/src/femfield/eval.cpp; sourceTree = "<group>"; };
+		A93F1DC51DB4623A000C04E0 /* linearsystem_field.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = linearsystem_field.cpp; path = DelFEM/src/femls/linearsystem_field.cpp; sourceTree = "<group>"; };
+		A93F1DC61DB4623A000C04E0 /* linearsystem_fieldsave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = linearsystem_fieldsave.cpp; path = DelFEM/src/femls/linearsystem_fieldsave.cpp; sourceTree = "<group>"; };
+		A948B17E19C6C2BF00DA0EA5 /* viewer3d */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = viewer3d; sourceTree = BUILT_PRODUCTS_DIR; };
+		A948B18A19C6C2E600DA0EA5 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A948B18C19C6C3AE00DA0EA5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		A948B18E19C6C3B300DA0EA5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A948B17B19C6C2BF00DA0EA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A948B18F19C6C3B300DA0EA5 /* GLUT.framework in Frameworks */,
+				A948B18D19C6C3AE00DA0EA5 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A948B17519C6C2BF00DA0EA5 = {
+			isa = PBXGroup;
+			children = (
+				A93F1DC51DB4623A000C04E0 /* linearsystem_field.cpp */,
+				A93F1DC61DB4623A000C04E0 /* linearsystem_fieldsave.cpp */,
+				A93F1DC31DB46219000C04E0 /* eval.cpp */,
+				A93F1DC11DB46202000C04E0 /* uglyfont.cpp */,
+				A93F1DAD1DB461D9000C04E0 /* mat_blkcrs.cpp */,
+				A93F1DAE1DB461D9000C04E0 /* matdia_blkcrs.cpp */,
+				A93F1DAF1DB461D9000C04E0 /* matdiafrac_blkcrs.cpp */,
+				A93F1DB01DB461D9000C04E0 /* matdiainv_blkdia.cpp */,
+				A93F1DB11DB461D9000C04E0 /* matfrac_blkcrs.cpp */,
+				A93F1DB21DB461D9000C04E0 /* matprolong_blkcrs.cpp */,
+				A93F1DB31DB461D9000C04E0 /* ordering_blk.cpp */,
+				A93F1DB41DB461D9000C04E0 /* solver_mat_iter.cpp */,
+				A93F1DB51DB461D9000C04E0 /* solver_mg.cpp */,
+				A93F1DB61DB461D9000C04E0 /* vector_blk.cpp */,
+				A93F1DA51DB461BA000C04E0 /* drawer_field_edge.cpp */,
+				A93F1DA61DB461BA000C04E0 /* drawer_field_face.cpp */,
+				A93F1DA71DB461BA000C04E0 /* drawer_field.cpp */,
+				A93F1DA81DB461BA000C04E0 /* elem_ary.cpp */,
+				A93F1DA31DB4619B000C04E0 /* surface_mesh_reader.cpp */,
+				A93F1D9B1DB46161000C04E0 /* spatial_hash_grid3d.cpp */,
+				A93F1D9C1DB46161000C04E0 /* linearsystem.cpp */,
+				A93F1D9D1DB46161000C04E0 /* preconditioner.cpp */,
+				A93F1D9E1DB46161000C04E0 /* solver_ls_iter.cpp */,
+				A93F1D931DB460A4000C04E0 /* field_value_setter.cpp */,
+				A93F1D941DB460A4000C04E0 /* field_world.cpp */,
+				A93F1D951DB460A4000C04E0 /* field.cpp */,
+				A93F1D961DB460A4000C04E0 /* node_ary.cpp */,
+				A93F1D871DB46074000C04E0 /* drawer_gl_utility.cpp */,
+				A93F1D881DB46074000C04E0 /* drawer.cpp */,
+				A93F1D891DB46074000C04E0 /* quaternion.cpp */,
+				A93F1D8A1DB46074000C04E0 /* spatial_hash_grid2d.cpp */,
+				A93F1D8B1DB46074000C04E0 /* tri_ary_topology.cpp */,
+				A93F1D8C1DB46074000C04E0 /* vector3d.cpp */,
+				A93F1D7F1DB46044000C04E0 /* drawer_msh.cpp */,
+				A93F1D801DB46044000C04E0 /* mesher2d_edit.cpp */,
+				A93F1D811DB46044000C04E0 /* mesher2d.cpp */,
+				A93F1D821DB46044000C04E0 /* meshkernel2d.cpp */,
+				A93F1D711DB46017000C04E0 /* brep.cpp */,
+				A93F1D721DB46017000C04E0 /* brep2d.cpp */,
+				A93F1D731DB46017000C04E0 /* cad_edge2d_polyline.cpp */,
+				A93F1D741DB46017000C04E0 /* cad_elem2d.cpp */,
+				A93F1D751DB46017000C04E0 /* cad_obj2d_move.cpp */,
+				A93F1D761DB46017000C04E0 /* cad_obj2d.cpp */,
+				A93F1D771DB46017000C04E0 /* drawer_cad.cpp */,
+				A93F1D4A1DB45FE1000C04E0 /* analysis2d_cloth_static.cpp */,
+				A93F1D4B1DB45FE1000C04E0 /* analysis2d_cloth_static.h */,
+				A93F1D4C1DB45FE1000C04E0 /* cloth_handler.cpp */,
+				A93F1D4D1DB45FE1000C04E0 /* cloth_handler.h */,
+				A93F1D4E1DB45FE1000C04E0 /* cloth_utility.cpp */,
+				A93F1D4F1DB45FE1000C04E0 /* cloth_utility.h */,
+				A93F1D501DB45FE1000C04E0 /* contact_target_adf.cpp */,
+				A93F1D511DB45FE1000C04E0 /* contact_target_mesh.cpp */,
+				A93F1D521DB45FE1000C04E0 /* contact_target.h */,
+				A93F1D531DB45FE1000C04E0 /* designer2d_cloth.cpp */,
+				A93F1D541DB45FE1000C04E0 /* designer2d_cloth.h */,
+				A93F1D551DB45FE1000C04E0 /* emat_cst.cpp */,
+				A93F1D561DB45FE1000C04E0 /* emat_cst.h */,
+				A93F1D571DB45FE1000C04E0 /* emat_glue.cpp */,
+				A93F1D581DB45FE1000C04E0 /* emat_glue.h */,
+				A93F1D591DB45FE1000C04E0 /* emat_quad_bend.cpp */,
+				A93F1D5A1DB45FE1000C04E0 /* emat_quad_bend.h */,
+				A93F1D5B1DB45FE1000C04E0 /* eqn_contact3d.cpp */,
+				A93F1D5C1DB45FE1000C04E0 /* eqn_contact3d.h */,
+				A93F1D5D1DB45FE1000C04E0 /* eqn_glue.cpp */,
+				A93F1D5E1DB45FE1000C04E0 /* eqn_glue.h */,
+				A93F1D5F1DB45FE1000C04E0 /* eqn_quad_bend.cpp */,
+				A93F1D601DB45FE1000C04E0 /* eqn_quad_bend.h */,
+				A93F1D611DB45FE1000C04E0 /* slider_deform.h */,
+				A93F1D621DB45FE1000C04E0 /* stitch_array.cpp */,
+				A93F1D631DB45FE1000C04E0 /* stitch_array.h */,
+				A93F1D491DB45F61000C04E0 /* camera.h */,
+				A948B18E19C6C3B300DA0EA5 /* GLUT.framework */,
+				A948B18C19C6C3AE00DA0EA5 /* OpenGL.framework */,
+				A948B18A19C6C2E600DA0EA5 /* main.cpp */,
+				A948B17F19C6C2BF00DA0EA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A948B17F19C6C2BF00DA0EA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A948B17E19C6C2BF00DA0EA5 /* viewer3d */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A948B17D19C6C2BF00DA0EA5 /* viewer3d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A948B18719C6C2BF00DA0EA5 /* Build configuration list for PBXNativeTarget "viewer3d" */;
+			buildPhases = (
+				A948B17A19C6C2BF00DA0EA5 /* Sources */,
+				A948B17B19C6C2BF00DA0EA5 /* Frameworks */,
+				A948B17C19C6C2BF00DA0EA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viewer3d;
+			productName = viewer3d;
+			productReference = A948B17E19C6C2BF00DA0EA5 /* viewer3d */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A948B17619C6C2BF00DA0EA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Nobuyuki Umetani";
+			};
+			buildConfigurationList = A948B17919C6C2BF00DA0EA5 /* Build configuration list for PBXProject "viewer3d" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A948B17519C6C2BF00DA0EA5;
+			productRefGroup = A948B17F19C6C2BF00DA0EA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A948B17D19C6C2BF00DA0EA5 /* viewer3d */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A948B17A19C6C2BF00DA0EA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93F1DA01DB46161000C04E0 /* linearsystem.cpp in Sources */,
+				A93F1DC41DB46219000C04E0 /* eval.cpp in Sources */,
+				A93F1DA21DB46161000C04E0 /* solver_ls_iter.cpp in Sources */,
+				A93F1D6D1DB45FE1000C04E0 /* eqn_contact3d.cpp in Sources */,
+				A93F1D9F1DB46161000C04E0 /* spatial_hash_grid3d.cpp in Sources */,
+				A93F1DB91DB461D9000C04E0 /* matdiafrac_blkcrs.cpp in Sources */,
+				A93F1D6E1DB45FE1000C04E0 /* eqn_glue.cpp in Sources */,
+				A93F1D651DB45FE1000C04E0 /* cloth_handler.cpp in Sources */,
+				A93F1D671DB45FE1000C04E0 /* contact_target_adf.cpp in Sources */,
+				A93F1DBD1DB461D9000C04E0 /* ordering_blk.cpp in Sources */,
+				A93F1DB71DB461D9000C04E0 /* mat_blkcrs.cpp in Sources */,
+				A93F1DC01DB461D9000C04E0 /* vector_blk.cpp in Sources */,
+				A93F1DAC1DB461BA000C04E0 /* elem_ary.cpp in Sources */,
+				A93F1D7E1DB46017000C04E0 /* drawer_cad.cpp in Sources */,
+				A93F1D691DB45FE1000C04E0 /* designer2d_cloth.cpp in Sources */,
+				A93F1DBF1DB461D9000C04E0 /* solver_mg.cpp in Sources */,
+				A93F1D991DB460A4000C04E0 /* field.cpp in Sources */,
+				A93F1D8D1DB46074000C04E0 /* drawer_gl_utility.cpp in Sources */,
+				A93F1D9A1DB460A4000C04E0 /* node_ary.cpp in Sources */,
+				A93F1D6B1DB45FE1000C04E0 /* emat_glue.cpp in Sources */,
+				A93F1D841DB46044000C04E0 /* mesher2d_edit.cpp in Sources */,
+				A93F1D8E1DB46074000C04E0 /* drawer.cpp in Sources */,
+				A93F1D831DB46044000C04E0 /* drawer_msh.cpp in Sources */,
+				A93F1DAA1DB461BA000C04E0 /* drawer_field_face.cpp in Sources */,
+				A93F1D701DB45FE1000C04E0 /* stitch_array.cpp in Sources */,
+				A93F1DC21DB46202000C04E0 /* uglyfont.cpp in Sources */,
+				A93F1D7B1DB46017000C04E0 /* cad_elem2d.cpp in Sources */,
+				A93F1D901DB46074000C04E0 /* spatial_hash_grid2d.cpp in Sources */,
+				A93F1D8F1DB46074000C04E0 /* quaternion.cpp in Sources */,
+				A93F1DBA1DB461D9000C04E0 /* matdiainv_blkdia.cpp in Sources */,
+				A93F1D681DB45FE1000C04E0 /* contact_target_mesh.cpp in Sources */,
+				A93F1DAB1DB461BA000C04E0 /* drawer_field.cpp in Sources */,
+				A93F1D781DB46017000C04E0 /* brep.cpp in Sources */,
+				A93F1D7D1DB46017000C04E0 /* cad_obj2d.cpp in Sources */,
+				A93F1DC71DB4623A000C04E0 /* linearsystem_field.cpp in Sources */,
+				A93F1DA41DB4619B000C04E0 /* surface_mesh_reader.cpp in Sources */,
+				A93F1D641DB45FE1000C04E0 /* analysis2d_cloth_static.cpp in Sources */,
+				A93F1DBC1DB461D9000C04E0 /* matprolong_blkcrs.cpp in Sources */,
+				A93F1DA91DB461BA000C04E0 /* drawer_field_edge.cpp in Sources */,
+				A93F1D981DB460A4000C04E0 /* field_world.cpp in Sources */,
+				A93F1D921DB46074000C04E0 /* vector3d.cpp in Sources */,
+				A93F1D851DB46044000C04E0 /* mesher2d.cpp in Sources */,
+				A93F1D791DB46017000C04E0 /* brep2d.cpp in Sources */,
+				A93F1DB81DB461D9000C04E0 /* matdia_blkcrs.cpp in Sources */,
+				A93F1D6A1DB45FE1000C04E0 /* emat_cst.cpp in Sources */,
+				A93F1D861DB46044000C04E0 /* meshkernel2d.cpp in Sources */,
+				A948B18B19C6C2E600DA0EA5 /* main.cpp in Sources */,
+				A93F1D7C1DB46017000C04E0 /* cad_obj2d_move.cpp in Sources */,
+				A93F1DBB1DB461D9000C04E0 /* matfrac_blkcrs.cpp in Sources */,
+				A93F1DC81DB4623A000C04E0 /* linearsystem_fieldsave.cpp in Sources */,
+				A93F1D6C1DB45FE1000C04E0 /* emat_quad_bend.cpp in Sources */,
+				A93F1D7A1DB46017000C04E0 /* cad_edge2d_polyline.cpp in Sources */,
+				A93F1D6F1DB45FE1000C04E0 /* eqn_quad_bend.cpp in Sources */,
+				A93F1D971DB460A4000C04E0 /* field_value_setter.cpp in Sources */,
+				A93F1D661DB45FE1000C04E0 /* cloth_utility.cpp in Sources */,
+				A93F1DA11DB46161000C04E0 /* preconditioner.cpp in Sources */,
+				A93F1D911DB46074000C04E0 /* tri_ary_topology.cpp in Sources */,
+				A93F1DBE1DB461D9000C04E0 /* solver_mat_iter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A948B18519C6C2BF00DA0EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A948B18619C6C2BF00DA0EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A948B18819C6C2BF00DA0EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /Users/nobuyuki/projects/sc_cloth_design/DelFEM/include/;
+			};
+			name = Debug;
+		};
+		A948B18919C6C2BF00DA0EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /Users/nobuyuki/projects/sc_cloth_design/DelFEM/include/;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A948B17919C6C2BF00DA0EA5 /* Build configuration list for PBXProject "viewer3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A948B18519C6C2BF00DA0EA5 /* Debug */,
+				A948B18619C6C2BF00DA0EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A948B18719C6C2BF00DA0EA5 /* Build configuration list for PBXNativeTarget "viewer3d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A948B18819C6C2BF00DA0EA5 /* Debug */,
+				A948B18919C6C2BF00DA0EA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A948B17619C6C2BF00DA0EA5 /* Project object */;
+}
